@@ -72,8 +72,8 @@ def process_directory(dir_path: str, persist_directory: str, vector_store) -> No
 
 if __name__ == "__main__":
     # Example usage
-    directory_path = "/Users/mariaborca/Documents/AI_2023-2024/Semestrul 4/Machine Learning/Know-Your-Rights/data"
-    persist_directory = "/Users/mariaborca/Documents/AI_2023-2024/Semestrul 4/Machine Learning/Know-Your-Rights/chromaDB"
+    directory_path = "/data"
+    persist_directory = "/chromaDB"
     
     vector_store = create_vector_store(persist_directory)
     
