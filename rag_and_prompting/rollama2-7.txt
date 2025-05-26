@@ -1,0 +1,103 @@
+Query: Cât timp poate fi reținută o persoană înainte de a fi arestată?
+            Expected: Reținerea nu poate depăși 24 de ore. După acest termen, persoana trebuie eliberată sau arestată preventiv prin decizia unui judecător.
+            Actual: 
+O persoană poate fi ținută timp de cel mult 24 de ore, iar dacă există motive suplimentare care să justifice arestarea preventivă, aceasta poate fi prelungită cu o perioadă de până la 30 de zile. Aceste măsuri sunt luate în cazurile prevăzute de lege, precum și în alte situații, cum ar fi prevenirea unei primejdii care ar putea reprezenta o amenințare gravă la adresa vieții sau integrității fizice a unei persoane, sau atunci când este vorba despre apărarea securității naționale sau a ordinii publice.
+            Relevancy Score: [{'metric': 'Answer Relevancy', 'success': False, 'score': 0.3333333333333333, 'reason': 'The score is 0.33 because the output contains several statements that diverge from the main question about the duration of detention before arrest. While some parts may touch on related topics, the majority of the content addresses different aspects such as preventive arrest, threats, and security measures, which do not directly answer the input question. This lack of focus on the specific query prevents a higher score.'}]
+            Recall Score: [{'metric': 'Contextual Recall', 'success': True, 'score': 1.0, 'reason': 'The score is 1.00 because every sentence in the expected output is perfectly aligned with the nodes in the retrieval context, ensuring complete accuracy and relevance. Great job!'}]
+            Faithfulness Score: [{'metric': 'Faithfulness', 'success': True, 'score': 0.8, 'reason': 'The score is 0.80 because the actual output inaccurately claims that preventive arrest can be extended for up to 30 days without clarifying that this extension is contingent upon specific legal conditions, which is a critical detail missing from the output.'}]
+            Understanding Score: [{'metric': 'Understanding (GEval)', 'success': False, 'score': 0.5285395641427025, 'reason': 'While the actual output provides some information about detention duration, it is not as clear and concise as the expected output, making it less accessible for someone without legal knowledge.'}]
+
+==================================================
+  
+Query: Care sunt drepturile cetățeanului român?
+            Expected: Cetățeanul român beneficiază de drepturi și libertăți fundamentale în toate domeniile vieții. Drepturile civile și politice includ dreptul la viață, libertatea individuală, dreptul la apărare, dreptul de vot de la 18 ani și eligibilitatea pentru funcții publice. Libertățile fundamentale cuprind libertatea gândirii și credinței religioase, libertatea de exprimare, dreptul la informație și dreptul de asociere în partide și sindicate. Drepturile economice și sociale garantează munca liber aleasă, greva, proprietatea privată, moștenirea, pensia și asistența medicală. În plus, cetățenii au dreptul la învățătură, acces la cultură, un mediu sănătos și protecția statului în străinătate.
+            Actual: 
+În calitate de cetățean român, aveți mai multe drepturi și libertăți garantate prin Constituția României. Acestea includ:
+
+1. Egalitatea în fața legii: Aveți același statut juridic ca orice alt cetățean al țării, fără privilegii speciale sau discriminare.
+2. Libertatea de exprimare și a presei: Puteți să vă exprimați liber gândurile, credințele și opiniile, atât în mod public, cât și prin intermediul mass-mediei.
+3. Dreptul la informare: aveți dreptul de acces la informații guvernamentale care vă privesc direct și potențial.
+4. Protecția împotriva discriminării și a tratamentului incorect: nu puteți fi discriminați sau supuse unui tratament inechitabil pe baza rasei, sexului, vârstei, orientării sexuale, religiei, originii naționale sau a altor criterii similare.
+5. Accesul liber la justiție: Puteți accesa cu ușurință sistemul judiciar al țării pentru a vă rezolva problemele juridice, fie că este vorba de un proces civil sau penal.
+6. Drepturi de proprietate privată: Aveți dreptul la proprietatea asupra bunurilor dvs. și puteți face schimburi de proprietăți cu alte persoane în mod legal.
+7. Viață privată: aveți un drept la viața ta personală și nu puteți fi supus intruziunii nejustificate sau încălcarea vieții private.
+8. Dreptul de a vă asocia în sindicate: Puteți adera la un sindicat și vă puteți exercita drepturile de membru, inclusiv să vă protejați interesele lucrând împreună pentru acestea.
+9. Dreptul la muncă: aveți dreptul de a căuta un loc de muncă și de a fi angajat în condiții echitabile, fără discriminare. Aveți dreptul să vă exercitați drepturile legate de ocuparea forței de muncă, inclusiv prin negociere colectivă sau individuală cu angajatorul dvs.
+10. Protecția împotriva exploatării: aveți drepturi de a nu fi exploatați într-un mod care ar putea afecta bunăstarea dumneavoastră, inclusiv să nu vă supuneți la muncă forțată sau la orice altă formă de muncă în condiții grele.
+11. Drepturi politice: aveți dreptul de a participa la alegerile locale și naționale pentru a lua parte la procesul democratic de luare a deciziilor care vă afectează direct. 
+            Relevancy Score: [{'metric': 'Answer Relevancy', 'success': True, 'score': 1.0, 'reason': 'The score is 1.00 because the response perfectly addresses the question about the rights of a Romanian citizen without any irrelevant information. Great job on staying focused and relevant!'}]
+            Recall Score: [{'metric': 'Contextual Recall', 'success': False, 'score': 0.4, 'reason': 'The score is 0.40 because while the 1st and 2nd nodes in the retrieval context align with the expected output regarding constitutional rights and voting rights, there is a lack of specific references to other fundamental freedoms, economic and social rights, and additional citizen rights in the retrieval context.'}]
+            Faithfulness Score: [{'metric': 'Faithfulness', 'success': False, 'score': 0.4166666666666667, 'reason': 'The score is 0.42 because the actual output includes several rights and freedoms that are not explicitly mentioned in the retrieval context, such as freedom of expression, right to information, property rights, privacy rights, union association, employment rights, and protection against exploitation, leading to a significant misalignment.'}]
+            Understanding Score: [{'metric': 'Understanding (GEval)', 'success': False, 'score': 0.6794631016933343, 'reason': 'The actual output provides a clear list of rights for Romanian citizens, making it accessible, but it lacks some specific rights mentioned in the expected output, such as the right to education and a healthy environment.'}]
+            
+
+==================================================
+Query: Ce obligație are angajatorul înainte de încheierea contractului individual de muncă?
+            Expected: Anterior încheierii sau modificării contractului individual de muncă, angajatorul are obligația de a informa persoana selectată în vederea angajării cu privire la clauzele esențiale pe care intenționează să le înscrie în contract sau să le modifice.
+            Actual: 
+Angajatorul are obligatia de a informa persoana selectata in vederea angajarii sau salariatul despre cel putin urmatoarele elemente: 
+a) identitatea partilor; 
+b) locul de munca sau, in lipsa unui loc de munca fix, posibilitatea ca salariatul sa isi desfasoare activitatea in 
+locuri de munca diferite, precum si daca deplasarea intre acestea este asigurata sau decontata de catre angajator, 
+dupa caz; 
+c) durata concediului de odihna la care salariatul are dreptul; 
+d) conditiile de acordare a preavizului de catre partile contractante si durata acestuia; 
+e) salariul de baza, alte elemente constitutive ale veniturilor salariale, evidentiate separat, periodicitatea platii 
+            Relevancy Score: [{'metric': 'Answer Relevancy', 'success': True, 'score': 1.0, 'reason': "The score is 1.00 because the response perfectly addresses the question about the employer's obligations before signing an individual employment contract, with no irrelevant information included. Great job!"}]
+            Recall Score: [{'metric': 'Contextual Recall', 'success': True, 'score': 1.0, 'reason': 'The score is 1.00 because the expected output is perfectly aligned with the information from the 2nd node in the retrieval context, ensuring complete accuracy and relevance. Great job!'}]
+            Faithfulness Score: [{'metric': 'Faithfulness', 'success': False, 'score': 0.0, 'reason': "The score is 0.00 because the actual output introduces a claim regarding the employer's obligation to inform the employee about travel reimbursements, which is not addressed in the retrieval context."}]
+            Understanding Score: [{'metric': 'Understanding (GEval)', 'success': False, 'score': 0.48739376310079796, 'reason': "While the actual output provides detailed information about the employer's obligations, it lacks clarity and accessibility for someone without legal knowledge, making it harder for the user to understand what they are allowed or required to do."}]
+            
+
+
+==================================================
+Query: Care este vârsta legală minimă pentru încheierea unei căsătorii în România?
+            Expected: Căsătoria se poate încheia dacă viitorii soți au împlinit vârsta de 18 ani.
+            Actual: 
+Vârsta legală minimă pentru căsătoriile efectuate în România este de 18 ani. Cu toate acestea, o minoră care a împlinit vârsta de 16 ani poate fi căsătorită dacă are încuviințarea părinților săi sau, după caz, a tutorelui și cu autorizarea instanței de tutelă. Dacă unul dintre părinți refuză, instanța de tutelă poate decide căsătoria minorului pe baza interesului superior al copilului. În plus, vârsta matrimonială nu există în România, astfel că orice persoană fizică cu capacitate de exercitare a drepturilor civile poate fi căsătorită prin consimțământ personal și liber.
+
+Această interpretare se bazează pe informații extrase din documentele juridice oficiale, cum ar fi Constituția României, Codul Muncii și alte acte normative relevante.
+            Relevancy Score: [{'metric': 'Answer Relevancy', 'success': False, 'score': 0.5714285714285714, 'reason': 'The score is 0.57 because while the output partially addresses the question about the legal marriage age in Romania, it includes several irrelevant statements that detract from its focus. These include incorrect information about the legal framework, unrelated details about information sources, and a list of documents not pertinent to the question. Despite these distractions, the core question is somewhat addressed, which is why the score is not lower.'}]
+            Recall Score: [{'metric': 'Contextual Recall', 'success': True, 'score': 1.0, 'reason': 'The score is 1.00 because the expected output perfectly matches the information from the 2nd node in the retrieval context, showcasing a flawless alignment.'}]
+            Faithfulness Score: [{'metric': 'Faithfulness', 'success': False, 'score': 0.6666666666666666, 'reason': 'The score is 0.67 because the actual output incorrectly states that the legal minimum age for marriage in Romania is 18 years and claims there is no marriage age, contradicting the retrieval context that allows marriage at 16 under certain conditions.'}]
+            Understanding Score: [{'metric': 'Understanding (GEval)', 'success': False, 'score': 0.5361145822703495, 'reason': 'While the actual output provides detailed legal information, it may be too complex for someone without legal knowledge, making it less accessible than the expected output.'}]
+            
+
+==================================================
+
+Query: În ce condiții poate fi încheiat un contract de vânzare-cumpărare și care sunt excepțiile de la forma scrisă?
+            Expected: Contractul de vânzare-cumpărare se încheie prin acordul părților asupra lucrului și prețului. Contractul trebuie să fie în formă scrisă pentru bunurile imobile, pentru bunurile mobile cu valoarea peste o anumită sumă stabilită prin lege și pentru bunurile viitoare. Forma scrisă nu este obligatorie pentru bunurile mobile de valoare mică, pentru vânzările în cadrul activităților comerciale curente cu plată pe loc, sau când legea prevede expres alte forme de încheierie.
+            Actual: 
+În ce condiții poate fi încheiat un contract de vânzare-cumpărare și care sunt excepțiile de la forma scrisă? 
+
+Un contract de vânzare-cumpărare poate fi încheiat atât în formă scrisă, cât și oral. Contractul verbal se referă la o afacere între un agent imobiliar și un client care nu este prezent fizic, dar oferă acordul verbal al clientului prin telefon sau e-mail. 
+
+Excepțiile de la forma scrisă a contractului de vânzare-cumpărare sunt prevăzute de articolul 1258 din Codul civil, care prevede că „dacă prin lege nu se prevede altfel, o promisiune verbală sau un act necesar pentru încheierea contractului și caracterul de urgență al acestuia permit unui vânzător să rezilieze unilateral contractul”. 
+
+De exemplu, dacă există o neînțelegere între client și agentul imobiliar în ceea ce privește prețul sau locația, agentul poate rezilia contractul. În acest caz, ambele părți trebuie să fie de acord cu anularea. 
+
+Contractele pentru proprietăți care necesită permise din partea autorităților locale pot fi încheiate și verbal; totuși, este esențial ca agentul imobiliar să obțină o permisiune scrisă de la client înainte de a aplica pentru aceste permise. 
+            Relevancy Score: [{'metric': 'Answer Relevancy', 'success': False, 'score': 0.6666666666666666, 'reason': 'The score is 0.67 because the output partially addresses the input by discussing contract-related topics. However, it includes irrelevant statements about misunderstandings, contract cancellations, and permits, which do not directly relate to the conditions or exceptions of a sales contract.'}]
+            Recall Score: [{'metric': 'Contextual Recall', 'success': False, 'score': 0.5, 'reason': 'The score is 0.50 because while the 1st node in the retrieval context supports the need for a written form for certain goods, it does not cover the agreement of parties on the object and price or the exceptions for small-value goods and commercial activities.'}]
+            Faithfulness Score: [{'metric': 'Faithfulness', 'success': True, 'score': 0.7777777777777778, 'reason': "The score is 0.78 because the actual output contradicts the retrieval context by asserting that a sale-purchase contract can be concluded orally, despite the context stating it must be in written form. Additionally, it claims that contracts requiring permits can be concluded verbally, which goes against the context's specification that such contracts must adhere to a certain form."}]
+            Understanding Score: [{'metric': 'Understanding (GEval)', 'success': False, 'score': 0.36797485309359484, 'reason': 'The response provides some information about the conditions for concluding a sales contract and exceptions, but it lacks clarity and accessibility for someone without legal knowledge, making it difficult to understand what actions are permitted.'}]
+            
+==================================================
+
+Query: Care sunt drepturile și obligațiile părților în cazul unei concedieri individuale pentru motive care nu țin de persoana salariatului?
+            Expected: În cazul concedierii pentru motive care nu țin de persoana salariatului, angajatorul trebuie să respecte proceduri stricte și să asigure drepturi specifice salariatului. Concedierea este permisă doar pentru desființarea locului de muncă din motive economice, tehnologice, structurale sau similare. Angajatorul are obligația să acorde un preaviz de minimum 20 de zile lucrătoare și să respecte criterii obiective de selecție (performanțe profesionale, vechime, sarcini de întreținere).
+            Actual: 
+În cazul unei concedieri individuale pentru motive care nu țin de persoana salariatului, drepturile și obligațiile părților sunt după cum urmează:
+
+1. Salariatul are dreptul la protecție adecvată împotriva concedierii nelegitime (motive care nu țin de persoana sa).
+2. Angajatorul trebuie să demonstreze că desființarea postului este efectivă și are o cauză reală și serioasă.
+3. Salariatului i se transferă drepturile existente într-un contract sau raport de muncă la momentul transferului (de exemplu, salarii restante, zile de concediu neefectuate).
+4. Angajatorul are obligația de a proteja informațiile privind salariații și datele lor personale în timpul procesului de desființare a postului. 
+            Relevancy Score: [{'metric': 'Answer Relevancy', 'success': True, 'score': 0.75, 'reason': "The score is 0.75 because the response mostly addresses the rights and obligations of parties in the context of individual dismissals not related to the employee's conduct. However, the mention of contract transfer rights is not directly relevant to the specific question, slightly lowering the score."}]
+            Recall Score: [{'metric': 'Contextual Recall', 'success': False, 'score': 0.6666666666666666, 'reason': 'The score is 0.67 because while the retrieval context supports the general concept of dismissal for reasons unrelated to the employee, as seen in node 2, it lacks specific details on the notice period and selection criteria mentioned in the expected output.'}]
+            Faithfulness Score: [{'metric': 'Faithfulness', 'success': True, 'score': 0.75, 'reason': 'The score is 0.75 because the actual output introduces the idea that the employer has an obligation to protect employee information during job termination, which is not supported by the retrieval context.'}]
+            Understanding Score: [{'metric': 'Understanding (GEval)', 'success': False, 'score': 0.5915842955099124, 'reason': 'The response outlines some rights and obligations but lacks clarity on the specific procedures and criteria for dismissal, which are essential for user understanding.'}]
+
+==================================================
+
+3 raspunsuri cu 2 teste trecute
