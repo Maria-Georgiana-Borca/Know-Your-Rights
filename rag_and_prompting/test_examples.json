@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Cât timp poate fi reținută o persoană înainte de a fi arestată?",
+        "expected_answer": "Reținerea nu poate depăși 24 de ore. După acest termen, persoana trebuie eliberată sau arestată preventiv prin decizia unui judecător."
+    },
+    {
+        "question": "Care sunt drepturile cetățeanului român?",
+        "expected_answer": "Cetățeanul român beneficiază de drepturi și libertăți fundamentale în toate domeniile vieții. Drepturile civile și politice includ dreptul la viață, libertatea individuală, dreptul la apărare, dreptul de vot de la 18 ani și eligibilitatea pentru funcții publice. Libertățile fundamentale cuprind libertatea gândirii și credinței religioase, libertatea de exprimare, dreptul la informație și dreptul de asociere în partide și sindicate. Drepturile economice și sociale garantează munca liber aleasă, greva, proprietatea privată, moștenirea, pensia și asistența medicală. În plus, cetățenii au dreptul la învățătură, acces la cultură, un mediu sănătos și protecția statului în străinătate."
+    },
+    {
+        "question": "Ce obligație are angajatorul înainte de încheierea contractului individual de muncă?",
+        "expected_answer": "Anterior încheierii sau modificării contractului individual de muncă, angajatorul are obligația de a informa persoana selectată în vederea angajării cu privire la clauzele esențiale pe care intenționează să le înscrie în contract sau să le modifice."
+    },
+    {
+        "question": "Care este vârsta legală minimă pentru încheierea unei căsătorii în România?",
+        "expected_answer": "În România, vârsta legală pentru căsătorie este de 18 ani. Totuși, în cazuri excepționale, minorii care au împlinit vârsta de 16 ani pot fi autorizați să se căsătorească, cu acordul părinților și aprobarea instanței de tutelă."
+    },
+    {
+        "question": "În ce condiții poate fi încheiat un contract de vânzare-cumpărare și care sunt excepțiile de la forma scrisă?",
+        "expected_answer": "Contractul de vânzare-cumpărare se încheie prin acordul părților asupra lucrului și prețului. Contractul trebuie să fie în formă scrisă pentru bunurile imobile, pentru bunurile mobile cu valoarea peste o anumită sumă stabilită prin lege și pentru bunurile viitoare. Forma scrisă nu este obligatorie pentru bunurile mobile de valoare mică, pentru vânzările în cadrul activităților comerciale curente cu plată pe loc, sau când legea prevede expres alte forme de încheierie."
+    },
+    {
+        "question": "Care sunt drepturile și obligațiile părților în cazul unei concedieri individuale pentru motive care nu țin de persoana salariatului?",
+        "expected_answer": "În cazul concedierii pentru motive care nu țin de persoana salariatului, angajatorul trebuie să respecte proceduri stricte și să asigure drepturi specifice salariatului. Concedierea este permisă doar pentru desființarea locului de muncă din motive economice, tehnologice, structurale sau similare. Angajatorul are obligația să acorde un preaviz de minimum 20 de zile lucrătoare și să respecte criterii obiective de selecție (performanțe profesionale, vechime, sarcini de întreținere)."
+    }
+]
